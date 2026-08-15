@@ -4,12 +4,12 @@ import CheckoutHistoryListPage from "./drafts/page";
 import CheckoutHistoryDetailPage from "./drafts/[id]/page";
 
 export const PLUGINS: PluginMeta = {
-    nx: "com.system.checkout-history",
+    nx: "checkout-history",
     name: "checkout-history",
     version: "1.0.0",
     description: "Saves checkout form data by visitor IP address for auto-fill on return visits.",
     author: "System",
-    path: "",
+    path: "https://github.com/HOTLancerX/checkout-history.git",
     icon: "mdi:history",
     color: "from-amber-500 to-orange-600",
 };
