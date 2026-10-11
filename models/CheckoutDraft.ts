@@ -17,7 +17,7 @@ export interface ICheckoutDraft extends Document {
 }
 
 const CheckoutDraftSchema = new Schema<ICheckoutDraft>({
-    ip:            { type: String, required: true, index: true },
+    ip:            { type: String, required: true },
     name:          { type: String, default: '' },
     phone:         { type: String, default: '' },
     email:         { type: String, default: '' },
